@@ -65,6 +65,7 @@ img {
   align-items: center;
 }
 .site-nav {
+  display: block;
   display: flex;
   align-items: center;
 }
@@ -76,8 +77,8 @@ img {
 .header .logo {
   margin-right: 93px;
 }
-.site-nav-item {
-  padding-right: 50px;
+.site-nav-item:not(:last-child) {
+  margin-right: 50px;
 }
 .header-contact-item:not(:last-child) {
   margin-right: 50px;
